@@ -1,17 +1,80 @@
-# scam_analyzer
+# Scam Message Analyzer
 
-A new Flutter project.
+A Flutter-based mobile application that helps users identify potentially fraudulent or scam messages using pattern-based analysis. The application enables users to analyze suspicious messages, view analysis history, and manage their profile through an intuitive interface.
+
+## Features
+
+* 🔍 Analyze suspicious SMS and text messages
+* 🛡️ Detect common scam patterns
+* 📊 View analysis history
+* 👤 User authentication (Login & Signup)
+* 👨‍💼 Admin dashboard
+* 💾 Local database integration
+* 📱 Clean and responsive Flutter UI
+
+## Tech Stack
+
+* **Framework:** Flutter
+* **Language:** Dart
+* **Database:** SQLite
+* **Platform:** Android, iOS, Web, Windows, macOS, Linux
+
+## Project Structure
+
+```
+lib/
+├── models/
+├── screens/
+├── services/
+├── utils/
+└── main.dart
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK
+* Dart SDK
+* Android Studio or VS Code
+* Git
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/TvishaKohli/Scam-Message-Analyzer.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd Scam-Message-Analyzer
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the application:
+
+```bash
+flutter run
+```
+
+## Future Enhancements
+
+* AI/ML-based scam detection
+* Real-time SMS scanning
+* Cloud database integration
+* Enhanced phishing detection
+* Improved analytics dashboard
+
+## Author
+
+**Tvisha Kohli**
+
+GitHub: https://github.com/TvishaKohli
